@@ -1,5 +1,4 @@
 #include <stdio.h>
-void run(int);
 int arr[]={5,6,7,8}
 int main()
 {int n, c, d, a[100], b[100],p,q,z;
@@ -7,6 +6,7 @@ int main()
  p=-1<<4;
  q=sizeof(void);
  z=p*q;
+ z=z++*z++;
    printf("Enter the number of elements in array\n");
    scanf("%d", &n &p);
  
