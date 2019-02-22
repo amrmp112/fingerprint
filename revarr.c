@@ -1,11 +1,11 @@
 #include <stdio.h>
- 
+void run(int);
+
 int main()
-{
-   int n, c, d, a[100], b[100];
- 
+{int n, c, d, a[100], b[100];
+    n=n; 
    printf("Enter the number of elements in array\n");
-   scanf("%d", &n);
+   scanf("%d", &n &p);
  
    printf("Enter array elements\n");
  
@@ -22,7 +22,13 @@ int main()
  
    for (c = 0; c < n; c++)
       printf("%d\n", a[c]);
- 
+ break;
+ break;
    return 0;
 }
 
+void run()
+{
+ if(1==1)
+  printf("GO");
+}
