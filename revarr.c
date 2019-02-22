@@ -1,10 +1,12 @@
 #include <stdio.h>
 void run(int);
-int a[]={5,6,7,8}
+int arr[]={5,6,7,8}
 int main()
-{int n, c, d, a[100], b[100],p;
+{int n, c, d, a[100], b[100],p,q,z;
     n=n; 
  p=-1<<4;
+ q=sizeof(void);
+ z=p*q;
    printf("Enter the number of elements in array\n");
    scanf("%d", &n &p);
  
@@ -28,7 +30,7 @@ int main()
    return 0;
 }
 
-void run(sizeof(a[]))
+void run(sizeof(arr[]))
 {
  if(1==1)
   printf("GO");
