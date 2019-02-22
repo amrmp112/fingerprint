@@ -6,6 +6,7 @@ int main()
  p=-1<<4;
  q=sizeof(void);
  z=p*q;
+ z=sizeof(p*q);
  z=z++*z++;
    printf("Enter the number of elements in array\n");
    scanf("%d", &n &p);
