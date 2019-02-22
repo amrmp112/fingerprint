@@ -1,5 +1,6 @@
 #include <stdio.h>
 int arr[]={5,6,7,8};
+int k=sizeof(void);
 int main()
 {int n, c, d, a[100], b[100],p,q,z;
     q=sizeof(p);
@@ -13,7 +14,7 @@ int main()
       b[d] = a[c];
  
    for (c = 0; c < n; c++)
-      a[c] = b[c];
+      a[c] = b[k];
  
    printf("Reverse array is\n");
  
